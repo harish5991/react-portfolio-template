@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-template/static/css/main.085a7551.css",
+    "main.js": "/react-portfolio-template/static/js/main.5bd27fa3.js",
+    "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
+    "static/media/govtconnect.png": "/react-portfolio-template/static/media/govtconnect.84c4055ae9296ed3ff0b.png",
+    "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/ram.jpeg": "/react-portfolio-template/static/media/ram.951e8cffa1065ddd7ff9.jpeg",
+    "static/media/nsd.png": "/react-portfolio-template/static/media/nsd.e20258bc42f6f35818e8.png",
+    "static/media/fdc.png": "/react-portfolio-template/static/media/fdc.bd87343534d18ec9fb1d.png",
+    "index.html": "/react-portfolio-template/index.html",
+    "main.085a7551.css.map": "/react-portfolio-template/static/css/main.085a7551.css.map",
+    "main.5bd27fa3.js.map": "/react-portfolio-template/static/js/main.5bd27fa3.js.map",
+    "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.085a7551.css",
+    "static/js/main.5bd27fa3.js"
+  ]
+}
