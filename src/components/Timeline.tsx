@@ -1,66 +1,43 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import '../assets/styles/Timeline.scss'
+import '../assets/styles/Timeline.scss';
 
 function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Timeline</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="Expected 06/2027"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
-            <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
-            </p>
+            <h3 className="vertical-timeline-element-title">B.Tech - Computer Science</h3>
+            <h4 className="vertical-timeline-element-subtitle">Malla Reddy Engineering College, Hyderabad</h4>
+            <p>Pursuing undergraduate engineering track. Core performance marker maintaining an overall CGPA of 8.78 / 10.0.</p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="Completed 2024"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
+            <h3 className="vertical-timeline-element-title">Data Analytics Job Simulation</h3>
+            <h4 className="vertical-timeline-element-subtitle">Deloitte (Virtual)</h4>
+            <p>Performed extensive statistical evaluations, engineered insight visuals, and presented findings on real-world datasets.</p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="Completed 2023"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
-            </p>
+            <h3 className="vertical-timeline-element-title">Intermediate (Class XII)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Sri Prakash Junior College</h4>
+            <p>Focused engineering track foundation. Completed with a final academic CGPA of 8.8 / 10.0.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
