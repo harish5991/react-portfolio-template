@@ -2,23 +2,41 @@ import React from "react";
 import '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
+import pythonIcon from '../assets/images/python.svg'; 
+import mysqlIcon from '../assets/images/sql.png';
+import pandasIcon from '../assets/images/pandas.svg';
+import numpyIcon from '../assets/images/numpy.svg';
+import jupyterIcon from '../assets/images/jupyter.svg';
+import azureIcon from '../assets/images/azure.svg';
+import scikitIcon from '../assets/images/scikitlearn.svg';
+import powerbiIcon from '../assets/images/powerbi.png'; // or .png depending on what you downloaded
 
 const labelsFirst = [
-    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-    { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-    { name: "C", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
-    { name: "Pandas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
-    { name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
-    { name: "Jupyter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" }
-  ];
+    { name: "Python", icon: pythonIcon },
+    { name: "MySQL", icon: mysqlIcon },
+    { name: "Pandas", icon: pandasIcon },
+    { name: "NumPy", icon: numpyIcon },
+    { name: "Jupyter", icon: jupyterIcon },
+    
+];
 
 const labelsSecond = [
-    "Logistic Regression", "Decision Trees", "Random Forest", "SVM", "KNN", "Scikit-learn"
-];
+    { name: "Logistic Regression", icon: null },
+    { name: "Decision Trees", icon: null },
+    { name: "Random Forest", icon: null },
+    { name: "SVM", icon: null },
+    { name: "KNN", icon: null },
+    { name: "Scikit-learn", icon: scikitIcon }
+  ];
 
-const labelsThird = [
-    "Microsoft Azure AI", "Power BI", "Matplotlib", "Seaborn", "Statistical Analysis", "Data Interpretation"
-];
+  const labelsThird = [
+    { name: "Microsoft Azure AI", icon: azureIcon },
+    { name: "Power BI", icon: powerbiIcon },
+    { name: "Matplotlib", icon: null },
+    { name: "Seaborn", icon: null },
+    { name: "Statistical Analysis", icon: null },
+    { name: "Data Interpretation", icon: null }
+  ];
 
 function Expertise() {
   return (
@@ -53,7 +71,22 @@ function Expertise() {
                 <h3>Machine Learning & Modeling</h3>
                 <p>Constructing, checking, and deploying multiple machine learning models to identify anomalies or predict complex classification structures.</p>
                 <div className="flex-chips">
-                    {labelsSecond.map((label, index) => (<Chip key={index} label={label} />))}
+                {labelsSecond.map((skill, index) => (
+  <Chip
+    key={index}
+    label={skill.name}
+    className="chip"
+    avatar={
+      skill.icon ? (
+        <img 
+          src={skill.icon} 
+          alt={skill.name} 
+          style={{ width: '20px', height: '20px', borderRadius: '50%', objectFit: 'contain' }} 
+        />
+      ) : undefined
+    }
+  />
+))}
                 </div>
             </div>
 
@@ -61,7 +94,22 @@ function Expertise() {
                 <h3>Cloud Infrastructure & Analytics</h3>
                 <p>Leveraging Microsoft Azure and cloud environments to implement smart data pipelines, visualizing metrics smoothly using interactive charts.</p>
                 <div className="flex-chips">
-                    {labelsThird.map((label, index) => (<Chip key={index} label={label} />))}
+                {labelsThird.map((skill, index) => (
+  <Chip
+    key={index}
+    label={skill.name}
+    className="chip"
+    avatar={
+      skill.icon ? (
+        <img 
+          src={skill.icon} 
+          alt={skill.name} 
+          style={{ width: '20px', height: '20px', borderRadius: '50%', objectFit: 'contain' }} 
+        />
+      ) : undefined
+    }
+  />
+))}
                 </div>
             </div>
         </div>
