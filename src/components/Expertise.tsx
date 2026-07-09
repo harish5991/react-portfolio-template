@@ -30,7 +30,22 @@ function Expertise() {
                 <h3>Data Engineering & Languages</h3>
                 <p>Writing highly efficient programmatic code, executing complex queries to structure, parse, and pull deep trends from databases.</p>
                 <div className="flex-chips">
-                    {labelsFirst.map((label, index) => (<Chip key={index} label={label} />))}
+                {labelsFirst.map((skill, index) => (
+  <Chip
+    key={index}
+    label={skill.name}
+    className="chip"
+    avatar={
+      skill.icon ? (
+        <img 
+          src={skill.icon} 
+          alt={skill.name} 
+          style={{ width: '20px', height: '20px', borderRadius: '50%', objectFit: 'contain' }} 
+        />
+      ) : undefined
+    }
+  />
+))}
                 </div>
             </div>
 
