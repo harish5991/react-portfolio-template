@@ -1,21 +1,29 @@
 {
   "files": {
     "main.css": "/react-portfolio-template/static/css/main.085a7551.css",
-    "main.js": "/react-portfolio-template/static/js/main.b24406c0.js",
+    "main.js": "/react-portfolio-template/static/js/main.e62437b0.js",
     "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
     "static/media/govtconnect.png": "/react-portfolio-template/static/media/govtconnect.84c4055ae9296ed3ff0b.png",
     "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/ram.jpeg": "/react-portfolio-template/static/media/ram.951e8cffa1065ddd7ff9.jpeg",
     "static/media/nsd.png": "/react-portfolio-template/static/media/nsd.e20258bc42f6f35818e8.png",
+    "static/media/powerbi.png": "/react-portfolio-template/static/media/powerbi.92982dac710fea627f64.png",
     "static/media/fdc.png": "/react-portfolio-template/static/media/fdc.bd87343534d18ec9fb1d.png",
+    "static/media/sql.png": "/react-portfolio-template/static/media/sql.fe0717fb6deabeb7cdd3.png",
+    "static/media/scikitlearn.svg": "/react-portfolio-template/static/media/scikitlearn.92d76f9c7b0e339fbecc4654928e1360.svg",
+    "static/media/python.svg": "/react-portfolio-template/static/media/python.849d0b2b5f1ec20f077dd267498bd536.svg",
+    "static/media/azure.svg": "/react-portfolio-template/static/media/azure.d8c693b62a434719420e95f8c65f3acd.svg",
+    "static/media/jupyter.svg": "/react-portfolio-template/static/media/jupyter.0482682905e698f6a88389cd0b57dc37.svg",
     "index.html": "/react-portfolio-template/index.html",
+    "static/media/numpy.svg": "/react-portfolio-template/static/media/numpy.f63df501d7a29fb7082f32eeb073eae6.svg",
+    "static/media/pandas.svg": "/react-portfolio-template/static/media/pandas.8f75ffe747f823efc5af786c76fdb7a2.svg",
     "main.085a7551.css.map": "/react-portfolio-template/static/css/main.085a7551.css.map",
-    "main.b24406c0.js.map": "/react-portfolio-template/static/js/main.b24406c0.js.map",
+    "main.e62437b0.js.map": "/react-portfolio-template/static/js/main.e62437b0.js.map",
     "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.085a7551.css",
-    "static/js/main.b24406c0.js"
+    "static/js/main.e62437b0.js"
   ]
 }
