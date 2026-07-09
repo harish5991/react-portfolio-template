@@ -19,38 +19,8 @@
     align-items: center;
     text-align: left;
 }
-.chip {
-    background-color: #1a1a1a !important; // Dark grey card color
-    color: #ffffff !important;           // Pure white text
-    border: 1px solid #333333 !important; // Subtle silver/grey border
-    padding: 5px 2px;
-    font-size: 14px;
-    font-weight: 500;
-    transition: all 0.3s ease;
 
-    &:hover {
-        background-color: #252525 !important;
-        border-color: #555555 !important;
-        transform: translateY(-2px);
-      }
-
-      .MuiChip-avatar {
-        background-color: transparent !important; // Fixes white circle masks around custom icons
-        width: 24px !important;
-        height: 24px !important;
-      }
-    }
-  
-    span {
-        font-family: 'Courier Prime', monospace;
-        color: rgb(39, 40, 34);
-    }
-  
-    svg {
-        height: 15px !important;
-    }
-
-
+// Fixed: Unified all Chip styling neatly within the flex-chips container context
 .flex-chips {
     display: flex;
     flex-wrap: wrap;
@@ -61,20 +31,41 @@
         color: white;
         padding-right: 10px;
     }
-}
 
-.flex-chips .MuiChip-root {
-    margin-right: 0.5em;
-}
+    // Styles your active Material UI custom components cleanly for Dark Mode
+    .chip, .MuiChip-root {
+        background-color: #1a1a1a !important;   // Sleek dark background
+        border: 1px solid #333333 !important;   // Definitively sets borders
+        padding: 5px 2px;
+        transition: all 0.3s ease;
+        margin-right: 0.5em;
 
-.flex-chips .MuiChip-outlined {
-    background-color: #e0e0e0;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
-}
+        // Clean white text with a modern tech-themed monospace font
+        span {
+            font-family: 'Courier Prime', source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace !important;
+            color: #ffffff !important;           
+            font-size: 14px;
+            font-weight: 500;
+        }
 
-.flex-chips .MuiChip-outlined span {
-    color: rgb(39, 40, 34);
+        // Handles custom graphic avatar images perfectly
+        .MuiChip-avatar {
+            background-color: transparent !important; 
+            width: 22px !important;
+            height: 22px !important;
+        }
+
+        svg {
+            height: 15px !important;
+            color: #ffffff !important;
+        }
+
+        &:hover {
+            background-color: #252525 !important;
+            border-color: #555555 !important;
+            transform: translateY(-2px);
+        }
+    }
 }
 
 @media screen {
