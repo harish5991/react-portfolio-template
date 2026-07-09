@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-template/static/css/main.085a7551.css",
-    "main.js": "/react-portfolio-template/static/js/main.e62437b0.js",
+    "main.js": "/react-portfolio-template/static/js/main.3f840402.js",
     "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
     "static/media/govtconnect.png": "/react-portfolio-template/static/media/govtconnect.84c4055ae9296ed3ff0b.png",
     "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
@@ -19,11 +19,11 @@
     "static/media/numpy.svg": "/react-portfolio-template/static/media/numpy.f63df501d7a29fb7082f32eeb073eae6.svg",
     "static/media/pandas.svg": "/react-portfolio-template/static/media/pandas.8f75ffe747f823efc5af786c76fdb7a2.svg",
     "main.085a7551.css.map": "/react-portfolio-template/static/css/main.085a7551.css.map",
-    "main.e62437b0.js.map": "/react-portfolio-template/static/js/main.e62437b0.js.map",
+    "main.3f840402.js.map": "/react-portfolio-template/static/js/main.3f840402.js.map",
     "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.085a7551.css",
-    "static/js/main.e62437b0.js"
+    "static/js/main.3f840402.js"
   ]
 }
