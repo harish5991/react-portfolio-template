@@ -19,12 +19,27 @@
     align-items: center;
     text-align: left;
 }
-  
 .chip {
-    color: rgb(39, 40, 34) !important;
-    background-color: white !important;
-    font-size: 0.8rem !important;
-    height: 25px !important;
+    background-color: #1a1a1a !important; // Dark grey card color
+    color: #ffffff !important;           // Pure white text
+    border: 1px solid #333333 !important; // Subtle silver/grey border
+    padding: 5px 2px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #252525 !important;
+        border-color: #555555 !important;
+        transform: translateY(-2px);
+      }
+
+      .MuiChip-avatar {
+        background-color: transparent !important; // Fixes white circle masks around custom icons
+        width: 24px !important;
+        height: 24px !important;
+      }
+    }
   
     span {
         font-family: 'Courier Prime', monospace;
@@ -34,11 +49,13 @@
     svg {
         height: 15px !important;
     }
-}
+
 
 .flex-chips {
-    line-height: 2;
-    margin: 0.5;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
 
     .chip-title {
         color: white;
