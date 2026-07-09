@@ -20,15 +20,7 @@ function Timeline() {
             <p>Pursuing undergraduate engineering track. Core performance marker maintaining an overall CGPA of 8.78 / 10.0.</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Completed 2024"
-            iconStyle={{ background: '#5000ca', color: '#fff' }}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analytics Job Simulation</h3>
-            <h4 className="vertical-timeline-element-subtitle">Deloitte (Virtual)</h4>
-            <p>Performed extensive statistical evaluations, engineered insight visuals, and presented findings on real-world datasets.</p>
-          </VerticalTimelineElement>
+         
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
